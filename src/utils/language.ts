@@ -20,6 +20,7 @@ const defaultLanguageCodes: string[] = [
   "bn-BD",
   "cs-CZ",
   "ca-AD",
+  "da-DK",
   "de-DE",
   "el-GR",
   "en-US",
@@ -62,6 +63,16 @@ const extraLanguages: Record<string, LocaleInfo> = {
     code: "pirate",
     name: "Pirate",
     nativeName: "Pirate Tongue",
+  },
+  kitty: {
+    code: "cat",
+    name: "Cat",
+    nativeName: "Kitty Speak",
+  },
+  uwu: {
+    code: "uwu",
+    name: "Cutsie OwO",
+    nativeName: "UwU",
   },
   minion: {
     code: "minion",
